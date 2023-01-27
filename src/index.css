@@ -1,27 +1,146 @@
 body {
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+nav {
+  background-color: rgb(40, 72, 137);
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+
+.menu-bar {
+  border-radius: 25px;
+  height: 100%;
+  display: inline-flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  align-items: center;
+  padding: 0 10px;
+}
+
+.menu-bar li {
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 12px 16px;
+  margin: 0 8px;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.menu-bar li ::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transition: 0.2s;
+  border-radius: 25px;
+}
+
+.menu-bar li:hover,
+.menu-bar li:hover::before {
+  background: linear-gradient(to bottom, #e8edec, #d2d1d3);
+  box-shadow: 0 3px 20px 0 black;
+  transform: scale(1.2);
+  color: black;
+  border-radius: 50px;
+}
+
+.menu-bar li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-bar li a:hover {
+  color: rgb(40, 72, 137);
+  text-decoration: none;
+}
+
+/*   Home & quote    */
+
+#home,
+#quote {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+#home h1,
+#quote h1 {
+  margin: 50px 0;
+}
+#quote h1 {
+  margin: 50px 0 100px 0;
+}
+
+/*   Footer    */
+
+#footer {
+  background: rgb(40, 72, 137);
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px 0 30px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#footer .social-links button {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  padding: 10px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  margin-bottom: 25px;
+}
+
+#footer .social-links button:hover {
+  background: white;
+  color: rgb(40, 72, 137);
+  text-decoration: none;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+
+#footer .credits {
+  font-size: 13px;
+}
+
+#footer .credits a {
+  color: #f6b024;
 }
