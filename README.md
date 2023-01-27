@@ -9,10 +9,12 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
-    - [🚀 Live Demo](#-live-demo)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Deployment](#deployment)
+  - [🚀 Live Demo](#-live-demo)
+  - [💻 Getting Started with Create React App ](#-getting-started-with-create-react-app-)
+  - [Available Scripts](#available-scripts)
+    - [`npm start`](#npm-start)
+    - [`npm test`](#npm-test)
+    - [`npm run build`](#npm-run-build)
   - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -67,7 +69,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[animated logo of the React app]**
+- **[The app is SinglePage app]**
+- **[Basic calculator app]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,29 +80,42 @@
 
 To get a local copy up and running, follow these steps.
 
-### 🚀 Live Demo
+## 🚀 Live Demo
 
 Please use the following link to access the website:
 
 [Live Demo Link](https://haliljon.github.io/math-magicians/)
 
-### Prerequisites
+## 💻 Getting Started with Create React App <a name="getting-started"></a>
 
-In order to run this project you need:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Setup
+## Available Scripts
 
-Clone this repository to your desired folder:
+In the project directory, you can run:
 
-```sh
-  cd my-folder
-  git clone https://github.com/haliljon/math-magicians.git
+### `npm start`
 
-  cd math-magicians
-  npm start
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Deployment
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## 👥 Author <a name="author"></a>
 
@@ -117,8 +133,7 @@ FUTURE FEATURES
 
 >
 
-- [ ] **[I would improve the look and feel of the application]**
-- [ ] **[I would like to add another feature that functions like calculator]**
+- [ ] **[I would like to improve the look and feel of the application]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,6 +156,8 @@ Please consider giving a ⭐️ if you like this project!
 > Give credit to everyone who inspired your codebase.
 
 I would like to thank [Microverse](https://www.microverse.org/)
+
+P.S. stackoverflow and google 😉
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
