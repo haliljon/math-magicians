@@ -9,6 +9,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
+    - [🚀 Live Demo](#-live-demo)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Deployment](#deployment)
@@ -75,6 +76,12 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
+
+### 🚀 Live Demo
+
+Please use the following link to access the website:
+
+[Live Demo Link](https://haliljon.github.io/math-magicians/)
 
 ### Prerequisites
 
