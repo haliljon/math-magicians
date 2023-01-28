@@ -84,7 +84,7 @@ To get a local copy up and running, follow these steps.
 
 Please use the following link to access the website:
 
-[Live Demo Link](https://haliljon.github.io/math-magicians/)
+[math-magicians.com](https://development--superb-semolina-a07347.netlify.app/)
 
 ## 💻 Getting Started with Create React App <a name="getting-started"></a>
 
