@@ -69,8 +69,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[The app is SinglePage app]**
-- **[Basic calculator app]**
+- **[The app is SinglePage app.]**
+- **[Basic calculator app.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
