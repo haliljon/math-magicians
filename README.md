@@ -133,7 +133,7 @@ FUTURE FEATURES
 
 >
 
-- [ ] **[I would like to improve the look and feel of the application]**
+- [ ] **I would like to improve the look and feel of the application**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
